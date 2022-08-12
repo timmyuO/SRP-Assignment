@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SolidPrinc
+{
+    public class SRp
+    {
+        public string MemberName { get; set; }
+        
+
+        public void Keke()
+        {
+
+        }
+
+        public void Booking() //Keke class is responsile for more than one thing
+        {
+
+        }
+        void Payment()
+        {
+
+        }
+    }
+
+    internal class MemberReview
+    {
+        void SendRating()
+        {
+            //codes
+            //codes
+            var PaymentDetails = new SRp();
+            PaymentDetails.SendEmail();
+
+            var comm = new Communications();
+            comm.SendEmail();
+
+        }
+    }
+
+    public class Communications
+    {
+        public string SendEmail() 
+        {
+            return "Sms sent";
+
+        }
+
+        public string SendSMS()
+        {
+            return "SMS sent";
+        }
+       
+    }
+}
